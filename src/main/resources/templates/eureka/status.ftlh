@@ -23,7 +23,7 @@
       <h1>注册到服务中心的实例</h1>
       <table id='instances' class="table table-striped table-hover">
         <thead>
-          <tr><th>应用</th><th>AMIs</th><th>网络地址</th><th>状态</th></tr>
+          <tr><th>应用</th><th>AMIs</th><th>注册数量（超2就是出现盗版）</th><th>网络地址</th></tr>
         </thead>
         <tbody>
           <#if apps?has_content>
