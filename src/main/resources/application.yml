@@ -7,5 +7,11 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
+      defaultZone: http://user:admin@${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  security:
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: mzj2019
